@@ -1,0 +1,101 @@
+
+
+
+.container{
+    width: 100%;
+    background-image: url('images/logo2.jpg');
+    background-size: cover;
+    background-position: center center ;
+    display: flex;
+}
+
+.top{
+
+    background-image: url('images/logo2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+    font-size: 94px;
+    color: #ffffff;
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;   
+}
+
+
+.menu{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid hsl(0, 0%, 96%);
+   
+    width: 23%;
+    max-height: fit-content;
+    font-size: 25px;
+    
+    color: aliceblue;
+    padding: 10px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+    
+    a {
+        text-decoration: none;
+        color: aliceblue;
+     }
+     a:hover {
+        text-decoration: underline;
+     }
+}
+ 
+ul > li
+
+li{
+padding-left: 10px;
+
+}
+.content {
+
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+    width: 77%;
+    max-height: fit-content;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid hsl(0, 0%, 96%);
+    a:hover {
+        text-decoration: none ;
+        color: hsl(208, 82%, 85%);
+     }
+  
+    background-color: #000000
+
+  
+    
+   }
+
+.footer{
+
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid #acacac;
+    color: aliceblue;
+}
+
